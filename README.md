@@ -1,5 +1,11 @@
 # lab-intro-github
 A demo repository  to learn about GitHub features.
+###Install Git
+https://git-scm.com/downloads
+'''
+$ git config --global user.name "Your name"
+$ git config --global user.email user@example.com
+'''
 
 ###Go the directory where you want to clone
 '''
