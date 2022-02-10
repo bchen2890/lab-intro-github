@@ -31,5 +31,11 @@ $ git commit -m "Added local commands"
 
 ### Push to remote repository
 ```
-$ git push origin master
+$ git push origin main
 ```
+
+###Pull from remote repository
+```
+$ git pull
+```
+
