@@ -22,3 +22,8 @@ $ git add README.md
 '''
 $ git commit -m "Added local commands"
 '''
+
+###Push to remote repository
+'''
+$ git push origin master
+'''
