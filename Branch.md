@@ -20,7 +20,7 @@ $ git checkout -b test
 
 ### Merge a branch into main
 ```
-$ git checkout test
+$ git checkout main
 $ git merge test
 ```
 
