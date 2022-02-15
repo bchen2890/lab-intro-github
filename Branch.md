@@ -13,3 +13,18 @@ $ git branch
 $ git checkout test
 ```
 
+### Create and switch to a new branch
+```
+$ git checkout -b test
+```
+
+### Merge a branch into main
+```
+$ git checkout test
+$ git merge test
+```
+
+### Delete a branch 
+```
+$ git branch -d test
+```
