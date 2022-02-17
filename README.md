@@ -7,14 +7,17 @@ $ git config --global user.name "Your name"
 $ git config --global user.email user@example.com
 ```
 
-### Go the directory where you want to clone
+### Create a new repository
 ```
-$ cd C:/Users/user/project
+echo "# lab-intro-github" >> README.md
+git init
+git add README.md
+git commit -m "initial commit"
+git branch -M main
+git remote add origin https://github.com/bchen2890/lab-intro-github.git
+git push -u origin main
 ```
-### Clone a existing repository
-```
-$  git clone https://github.com/bchen2890/lab-intro-github
-```
+
 ### Check branch status
 ```
 $ git status
@@ -26,7 +29,7 @@ $ git add README.md
 
 ### Commit your change
 ```
-$ git commit -m "Added local commands"
+$ git commit -m "Added README.md"
 ```
 
 ### Push to remote repository
@@ -39,3 +42,20 @@ $ git push origin main
 $ git pull
 ```
 
+### Create alias
+```
+$ git config --global alias.ci commit
+$ git config --global alias.st status
+```
+
+### Clone a existing repository
+```
+$  git clone https://github.com/bchen2890/lab-intro-github
+```
+
+### Push an existing repository
+```
+git remote add origin https://github.com/bchen2890/lab-intro-github.git
+git branch -M main
+git push -u origin main
+```
