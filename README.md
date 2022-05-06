@@ -59,3 +59,8 @@ git remote add origin https://github.com/bchen2890/lab-intro-github.git
 git branch -M main
 git push -u origin main
 ```
+
+### Unstage the file. It will be untracked.
+```
+git rm --cached <file>
+```
